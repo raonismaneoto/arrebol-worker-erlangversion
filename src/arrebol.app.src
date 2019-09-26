@@ -1,0 +1,12 @@
+{application, arrebol,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { arrebol_app, ['scheduler@raoni-Inspiron-5548']}},
+  {env, []}
+ ]}.
